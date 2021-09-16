@@ -8,7 +8,7 @@ public class Main {
 
         Scanner console = new Scanner(System.in);
 
-	    double stepHeight = 0.3;
+	double stepHeight = 0.3;
         double stepLenght = 0.2;
         double towerHeight = 25;
         double numberOfSteps = towerHeight/stepHeight;

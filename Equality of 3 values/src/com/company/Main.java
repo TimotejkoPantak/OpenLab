@@ -19,19 +19,19 @@ public class Main {
         if (input1 == input2 && input1 == input3) {
             output = 3;
             System.out.println();
-            System.out.print((output + " same numbers.")
+            System.out.print((output + " --> same numbers.")
             );
         }
 
         else if (input1 == input2 || input1 == input3) {
             output = 2;
             System.out.println();
-            System.out.println(output + " same numbers.");
+            System.out.println(output + " --> same numbers.");
         }
         else {
             output = 0;
             System.out.println();
-            System.out.println(output + " same numbers.");
+            System.out.println(output + " --> same numbers.");
         }
 
     }
